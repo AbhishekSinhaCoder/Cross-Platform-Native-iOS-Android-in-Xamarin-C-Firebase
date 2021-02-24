@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{2BF2AB0C-51E2-4841-8E38-61F1342BA108}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ListsViewController.cs">
+    <Files>
+      <File FileName="Droid/ListsActivity.cs" Line="70" Column="9" />
+      <File FileName="Droid/Classes/ReadAllData.cs" Line="25" Column="60" />
+      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/ItemsViewController.cs" Line="17" Column="9" />
+      <File FileName="iOS/Classes/ListsDataSource.cs" Line="64" Column="75" />
+      <File FileName="iOS/ListsViewController.cs" Line="40" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Groceries" expanded="True">
+            <Node name="Groceries.iOS" expanded="True">
+              <Node name="Classes" expanded="True" />
+              <Node name="ListsViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.EM" AndroidDesignerPreferredTheme="Theme.Holo.Light.NoActionBar" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{390BF406-63E9-427E-A99E-09F89A1B60FF}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Groceries</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GroceryListClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PrepareFirstLists.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadWrite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SetLocalUser.cs" />
+  </ItemGroup>
+</Project>

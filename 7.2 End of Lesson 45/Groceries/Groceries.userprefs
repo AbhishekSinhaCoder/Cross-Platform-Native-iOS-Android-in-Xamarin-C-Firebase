@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D265AC5E-E5BC-444E-9154-7A90D8489ABC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Classes/Register.cs">
+    <Files>
+      <File FileName="iOS/Classes/Register.cs" Line="86" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Groceries" expanded="True">
+            <Node name="Groceries.iOS" expanded="True">
+              <Node name="Classes" expanded="True">
+                <Node name="Register.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid PreferredExecutionTarget="Android.EM" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>

@@ -1,0 +1,24 @@
+partial void PofileButton_TouchUpInside(UIButton sender)
+        {
+            UIAlertController alert = UIAlertController.Create("Profile",
+                                                              "What would you like to do",
+                                                               UIAlertControllerStyle.ActionSheet);
+
+            alert.AddAction(UIAlertAction.Create("Register",
+                                                 UIAlertActionStyle.Default,
+                                                 (obj) => Register.Alert(this)));
+
+            alert.AddAction(UIAlertAction.Create("Login",
+                                                 UIAlertActionStyle.Default,
+                                                 (obj) => Login.Alert(this)));
+
+            alert.AddAction(UIAlertAction.Create("Logout",
+                                                 UIAlertActionStyle.Default,
+                                                 (obj) => Logout.LogoutAction(this)));
+
+            alert.AddAction(UIAlertAction.Create("Cancel",
+                                                 UIAlertActionStyle.Cancel,
+                                                 null));
+
+            this.PresentViewController(alert, true, null);
+        }

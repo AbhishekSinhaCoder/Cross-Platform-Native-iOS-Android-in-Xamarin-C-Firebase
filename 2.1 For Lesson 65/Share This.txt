@@ -1,0 +1,30 @@
+            if (AppData_iOS.auth.CurrentUser == null)
+            {
+                AlertShow.Show(this, "Offline", "You have to login first");
+                return;
+            }
+
+            UIAlertController shareAlert;
+            shareAlert = UIAlertController.Create("Inviting Somone?",
+                                                 "Please enter their email address",
+                                                  UIAlertControllerStyle.Alert);
+
+            shareAlert.AddTextField((obj) =>
+            {
+                obj.Font = UIFont.SystemFontOfSize(22);
+                obj.TextAlignment = UITextAlignment.Center;
+                obj.Placeholder = "email address";
+            });
+
+
+            shareAlert.AddAction(UIAlertAction.Create("Invite",
+                                                      UIAlertActionStyle.Default,
+                                                      (obj) =>
+                                                      InviteSomeone.Invite(this,
+                                                                           curList,
+                                                                           shareAlert.TextFields[0].Text)
+                                                     ));
+
+            shareAlert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null));
+
+            PresentViewController(shareAlert, true, null);

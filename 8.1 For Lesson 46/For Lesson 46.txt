@@ -1,0 +1,39 @@
+	AlertDialog.Builder registerAlert = new AlertDialog.Builder(inpContext);
+	registerAlert.SetTitle("Register Online");
+	registerAlert.SetMessage("Please enter your name, email and password.");
+
+	LinearLayout textEditsLayout = new LinearLayout(inpContext);
+	textEditsLayout.Orientation = Orientation.Vertical;
+
+	EditText nameInput = new EditText(inpContext);
+	nameInput.TextSize = 22;
+	nameInput.Gravity = GravityFlags.Center;
+	nameInput.Hint = "name";
+	nameInput.SetSingleLine(true);
+	textEditsLayout.AddView(nameInput);
+
+	EditText emailInput = new EditText(inpContext);
+	emailInput.TextSize = 22;
+	emailInput.Gravity = GravityFlags.Center;
+	emailInput.Hint = "email";
+	emailInput.InputType = Android.Text.InputTypes.TextVariationEmailAddress;
+	emailInput.SetSingleLine(true);
+	textEditsLayout.AddView(emailInput);
+
+	EditText passwordInput = new EditText(inpContext);
+	passwordInput.TextSize = 22;
+	passwordInput.Gravity = GravityFlags.Center;
+	passwordInput.InputType = Android.Text.InputTypes.TextVariationPassword;
+	passwordInput.Hint = "password";
+	passwordInput.SetSingleLine(true);
+	textEditsLayout.AddView(passwordInput);
+
+	registerAlert.SetView(textEditsLayout);
+	registerAlert.SetPositiveButton("Register",
+									 (senderAlert,
+										   args) => {});
+	registerAlert.SetNegativeButton("Cancel",
+									(senderAlert, args) => { });
+
+	Dialog dialog = registerAlert.Create();
+	dialog.Show();

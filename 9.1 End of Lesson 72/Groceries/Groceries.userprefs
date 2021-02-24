@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D265AC5E-E5BC-444E-9154-7A90D8489ABC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/ItemsActivity.cs">
+    <Files>
+      <File FileName="Droid/Classes/RemoveInvitation.cs" Line="22" Column="23" />
+      <File FileName="Droid/ListsActivity.cs" Line="127" Column="39" />
+      <File FileName="Droid/ItemsActivity.cs" Line="115" Column="1" />
+      <File FileName="iOS/ItemsViewController.cs" Line="1" Column="1" />
+      <File FileName="iOS/Classes/ItemsDataSource.cs" Line="70" Column="1" />
+      <File FileName="Droid/Classes/SaveItemOnCloud.cs" Line="17" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid PreferredExecutionTarget="Android.EM" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>

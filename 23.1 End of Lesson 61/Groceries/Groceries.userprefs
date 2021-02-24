@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{D265AC5E-E5BC-444E-9154-7A90D8489ABC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Classes/Logout.cs">
+    <Files>
+      <File FileName="iOS/ListsViewController.cs" Line="44" Column="29" />
+      <File FileName="iOS/Classes/Logout.cs" Line="15" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Groceries" expanded="True">
+            <Node name="Groceries" expanded="True" />
+            <Node name="Groceries.iOS" expanded="True">
+              <Node name="Classes" expanded="True">
+                <Node name="Logout.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid PreferredExecutionTarget="Android.EM" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "295421707649",
+    "firebase_url": "https://groceries-bde4c.firebaseio.com",
+    "project_id": "groceries-bde4c",
+    "storage_bucket": "groceries-bde4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295421707649:android:ca7e380966fd1e59",
+        "android_client_info": {
+          "package_name": "ca.cinard.Groceries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295421707649-6ha5krdvcsvk7ug4pp3nettlbbp3fdhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc33Qe6ANpS81nPsOhBkolmEnAHLRS76k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+AlertDialog.Builder shareAlert = new AlertDialog.Builder(this);
+
+            shareAlert.SetTitle("Inviting Someone?");
+            shareAlert.SetMessage("Please enter the Email Address of the person you wish to invite to this list");
+
+            EditText input = new EditText(this);
+            input.TextSize = 22;
+            input.Gravity = GravityFlags.Center;
+            input.Hint = "Email Address";
+            input.SetSingleLine(true);
+            shareAlert.SetView(input);
+
+            shareAlert.SetPositiveButton("OK", async (shareSender, shareE) =>
+            {
+                await InviteSomone.Invite(this, curList, input.Text);
+            });
+            shareAlert.SetNegativeButton("Cancel", (senderAlert, args) => { });
+
+            Dialog dialog = shareAlert.Create();
+            dialog.Show();

@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{FE0EB28B-AC7E-4CEA-A7B3-20D5825F3E6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Classes/ReadAllData.cs">
+    <Files>
+      <File FileName="Droid/Classes/Login.cs" Line="69" Column="44" />
+      <File FileName="Droid/ListsActivity.cs" Line="38" Column="20" />
+      <File FileName="Droid/Classes/ReadAllData.cs" Line="34" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid PreferredExecutionTarget="Android.EM" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>

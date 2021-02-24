@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{2BF2AB0C-51E2-4841-8E38-61F1342BA108}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Classes/ListsDataSource.cs">
+    <Files>
+      <File FileName="iOS/ListsViewController.cs" Line="30" Column="13" />
+      <File FileName="Groceries/PrepareFirstLists.cs" Line="15" Column="25" />
+      <File FileName="iOS/Classes/ListsDataSource.cs" Line="18" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Groceries.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.EM" AndroidDesignerPreferredTheme="Theme.Holo.Light.NoActionBar" />
+  <MonoDevelop.Ide.ItemProperties.Groceries HideGettingStarted="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Groceries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80C9AA2C-25ED-4789-9317-060C3680D1C8" />
+</Properties>
